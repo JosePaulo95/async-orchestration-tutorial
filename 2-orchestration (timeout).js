@@ -10,7 +10,7 @@ const wait = ms => new Promise( (resolve, rejects) => {
     return ms
 }).catch(() => {
     console.log(ms + " failed")
-    return "-"
+    throw new Error("Valor inválido")
 })
 
 async function main() {
