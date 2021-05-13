@@ -7,5 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosePaulo95/async-orchestration-tutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JosePaulo95/async-orchestration-tutorial/issues"
+  },
+  "homepage": "https://github.com/JosePaulo95/async-orchestration-tutorial#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
