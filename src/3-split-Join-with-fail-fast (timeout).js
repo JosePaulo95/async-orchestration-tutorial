@@ -14,7 +14,8 @@ const wait = ms => new Promise( (resolve, rejects) => {
 })
 
 // Split-join with fail-fast
-function getUserDetails(ms_arr) {
+function runAll(ms_arr) {
+  //return Promise.race(ms_arr.map(wait))//retorna a primeira que completar (erro ou sucesso) mas as outras ainda rodam por conta própria
   //return Promise.all(ms_arr.map(wait))//retorna os resultados em array e é fail fast
   return Promise.allSettled(ms_arr.map(wait))//retorna o outcome individual e roda todas
     .then((response) => {
@@ -27,5 +28,5 @@ function getUserDetails(ms_arr) {
     });
 }
 
-getUserDetails([7,8,9,10,11,12]);//com erro
-getUserDetails([7,8,9,  11,12]);//sem erro
+runAll([7,8,9,10,11,12]);//com erro
+//runAll([7,8,9,  11,12]);//sem erro
