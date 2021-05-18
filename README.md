@@ -3,6 +3,8 @@ Seguindo este tutorial https://medium.com/js-dojo/api-client-patterns-every-fron
 
 Adapto cada passo para scripts independentes com timeout promises que são mais simples e portáteis.
 
+Para executar instale com 'npm install" e execute os arquivos em src com node $nome_do_arquivo.
+
 [x] Basic asynchronous call
 [x] Orchestration
 [x] Split-Join with fail-fast / Split-Join with all-settled
