@@ -5,7 +5,7 @@ Adapto cada passo para scripts independentes com timeout promises que são mais 
 
 [x] Basic asynchronous call
 [x] Orchestration
-[ ] Split-Join with fail-fast / Split-Join with all-settled
+[x] Split-Join with fail-fast / Split-Join with all-settled
 [ ] Dynamic Split-Join
 [ ] Controlled concurrency
 [ ] Rat race
