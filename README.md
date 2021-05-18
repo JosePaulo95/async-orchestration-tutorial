@@ -8,6 +8,6 @@ Para executar instale com 'npm install" e execute os arquivos em src com node $n
 [x] Basic asynchronous call
 [x] Orchestration
 [x] Split-Join with fail-fast / Split-Join with all-settled
-[ ] Dynamic Split-Join
+[x] Dynamic Split-Join
 [ ] Controlled concurrency
 [ ] Rat race
