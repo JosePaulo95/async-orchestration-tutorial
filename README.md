@@ -9,5 +9,5 @@ Para executar instale com 'npm install" e execute os arquivos em src com node $n
 [x] Orchestration
 [x] Split-Join with fail-fast / Split-Join with all-settled
 [x] Dynamic Split-Join
-[ ] Controlled concurrency
+[x] Controlled concurrency
 [ ] Rat race
