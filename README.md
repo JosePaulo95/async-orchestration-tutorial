@@ -5,9 +5,9 @@ Alguns passos foram adaptados para scripts independentes com timeout promises qu
 
 Para executar instale com 'npm install" e execute os arquivos em src com node $nome_do_arquivo.
 
-[x] Basic asynchronous call
-[x] Orchestration
-[x] Split-Join with fail-fast / Split-Join with all-settled
-[x] Dynamic Split-Join
-[x] Controlled concurrency
-[x] Rat race
+[x] Basic asynchronous call  
+[x] Orchestration  
+[x] Split-Join with fail-fast / Split-Join with all-settled  
+[x] Dynamic Split-Join  
+[x] Controlled concurrency  
+[x] Rat race  
